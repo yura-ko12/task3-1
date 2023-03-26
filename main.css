@@ -1,0 +1,57 @@
+
+.container{
+  background-color: black;
+  color: white;
+  padding: 60px 10px 10px;
+  width: fit-content;
+  border-radius: 15px;
+  border: 3px solid #CC99FF;
+}
+
+
+.monitor{
+  font-size: 40px;
+  height: 60px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+
+button{
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 3px;
+}
+
+button:active{
+  opacity: 0.8;
+}
+
+.row-1, .row-2, .row-3, .row-4, .row-5{
+  display: flex;
+  
+}
+
+.row-5 button:first-child{
+  width: 104px;
+  border-radius: 40px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.special{
+  background-color: #CCCCCC;
+}
+
+.right{
+  background-color: #FFA500;
+  color: white;
+}
+
+.number, .decimal{
+  background-color: #333333;
+  color: white;
+}
